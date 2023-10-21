@@ -11,6 +11,7 @@ namespace Phase1Section3._10
         static void Main(string[] args)
         {
             doApp();
+            Console.ReadLine();
         }
 
         public static void doApp()
@@ -37,7 +38,7 @@ namespace Phase1Section3._10
                 sb.Append(i.ToString() + " ");
             }
             Console.WriteLine(sb.ToString());
-            Console.ReadLine();
+            
 
         }
 
